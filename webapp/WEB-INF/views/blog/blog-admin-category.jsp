@@ -43,7 +43,7 @@
 		      			<th>${vo.description }</th>
 		      			<td><a href="${pageContext.request.contextPath }/blog/admin_deletecategory?no=${vo.no }">삭제</a></td>
 		      		</tr>
-					</c:forEach>
+					</c:forEach>  
 				</table>
 				
       		<form action="${pageContext.request.contextPath }/blog/admin_addcategory" method="get">
